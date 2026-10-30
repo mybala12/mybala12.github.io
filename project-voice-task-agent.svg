@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" role="img" aria-labelledby="title desc">
+  <title id="title">VoiceTaskAgent voice automation</title>
+  <desc id="desc">A voice assistant interface translates a spoken command into a checked task card.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#11182c"/><stop offset="1" stop-color="#252543"/></linearGradient>
+    <linearGradient id="violet" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#b8a5ff"/><stop offset="1" stop-color="#75dfd0"/></linearGradient>
+    <radialGradient id="core"><stop stop-color="#d9d2ff"/><stop offset=".42" stop-color="#9c8cff"/><stop offset="1" stop-color="#514b8b"/></radialGradient>
+    <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse"><path d="M34 0H0V34" fill="none" stroke="#c2b9ff" stroke-opacity=".055"/></pattern>
+    <filter id="glow"><feGaussianBlur stdDeviation="17" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="960" height="600" fill="url(#bg)"/><rect width="960" height="600" fill="url(#grid)"/>
+  <text x="58" y="62" fill="#a8a7c8" font-family="Arial,sans-serif" font-size="12" letter-spacing="2">VOICETASKAGENT  /  TASK AUTOMATION</text>
+  <circle cx="326" cy="306" r="201" fill="#8576d8" opacity=".075"/><circle cx="326" cy="306" r="168" fill="none" stroke="#aaa0f0" stroke-opacity=".16" stroke-dasharray="3 10"/><circle cx="326" cy="306" r="136" fill="none" stroke="#a6a0ee" stroke-opacity=".24"/>
+  <circle cx="326" cy="306" r="92" fill="url(#core)" opacity=".9" filter="url(#glow)"/><circle cx="326" cy="306" r="71" fill="#292744" stroke="#d0c8ff" stroke-opacity=".8" stroke-width="2"/>
+  <g fill="none" stroke="#c9c1ff" stroke-linecap="round" stroke-width="7"><path d="M268 309v-12"/><path d="M286 327v-48"/><path d="M304 345v-82"/><path d="M322 336v-62"/><path d="M340 350v-90"/><path d="M358 330v-50"/><path d="M376 314v-20"/></g>
+  <g fill="#bdb4ff"><circle cx="186" cy="254" r="5"/><circle cx="477" cy="220" r="4"/><circle cx="451" cy="409" r="6"/><circle cx="214" cy="425" r="4"/></g>
+  <path d="M479 306h86" stroke="url(#violet)" stroke-width="2" stroke-dasharray="6 7"/><circle cx="567" cy="306" r="5" fill="#9de9d8"/>
+  <rect x="572" y="129" width="321" height="348" rx="14" fill="#171c34" stroke="#47456c"/>
+  <text x="600" y="169" fill="#aaa8c9" font-family="Arial,sans-serif" font-size="11" letter-spacing="2">VOICE COMMAND</text>
+  <rect x="598" y="187" width="268" height="84" rx="9" fill="#242443" stroke="#504d78"/>
+  <circle cx="623" cy="229" r="13" fill="#3d3b63"/><path d="M619 224v10m5-14v18m5-14v10" stroke="#c9c1ff" stroke-width="2" stroke-linecap="round"/>
+  <text x="648" y="222" fill="#eeeefe" font-family="Arial,sans-serif" font-size="13">“Add a task for</text><text x="648" y="243" fill="#eeeefe" font-family="Arial,sans-serif" font-size="13">tomorrow morning”</text>
+  <text x="600" y="311" fill="#aaa8c9" font-family="Arial,sans-serif" font-size="11" letter-spacing="2">TASK CREATED</text>
+  <rect x="598" y="329" width="268" height="92" rx="9" fill="#1c2c3d" stroke="#42635f"/>
+  <circle cx="624" cy="375" r="13" fill="#254d4b" stroke="#72dfca"/><path d="m618 375 4 4 8-9" fill="none" stroke="#a7f0db" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="649" y="366" fill="#e2f2f1" font-family="Arial,sans-serif" font-size="13" font-weight="700">Review project notes</text><text x="649" y="388" fill="#8faeaf" font-family="Arial,sans-serif" font-size="11">Tomorrow · 9:00 AM</text>
+  <rect x="598" y="438" width="268" height="22" rx="11" fill="#262542"/><circle cx="611" cy="449" r="4" fill="#88e3d1"/><text x="623" y="453" fill="#a7a5c4" font-family="Arial,sans-serif" font-size="10">VOICE INPUT  →  TASK ACTION</text>
+  <text x="63" y="552" fill="#817eac" font-family="Arial,sans-serif" font-size="11" letter-spacing="3">LISTEN  /  INTERPRET  /  ORGANIZE</text>
+</svg>

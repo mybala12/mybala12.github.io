@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" role="img" aria-labelledby="title desc">
+  <title id="title">Machine learning for cybersecurity</title>
+  <desc id="desc">A glowing security shield connected to anomaly signals and system telemetry.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#091525"/><stop offset="1" stop-color="#142d40"/></linearGradient>
+    <linearGradient id="shield" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#73f1c6" stop-opacity=".24"/><stop offset="1" stop-color="#39acd5" stop-opacity=".04"/></linearGradient>
+    <linearGradient id="line" x1="0" y1="1" x2="1" y2="0"><stop stop-color="#57d7bd"/><stop offset="1" stop-color="#7bcfff"/></linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#8bb7cc" stroke-opacity=".08"/></pattern>
+    <filter id="glow"><feGaussianBlur stdDeviation="8" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="960" height="600" fill="url(#bg)"/><rect width="960" height="600" fill="url(#grid)"/>
+  <circle cx="308" cy="297" r="230" fill="#43d9bf" opacity=".055"/><circle cx="308" cy="297" r="184" fill="none" stroke="#73e8d0" stroke-opacity=".19" stroke-dasharray="2 11"/>
+  <circle cx="308" cy="297" r="145" fill="none" stroke="#73e8d0" stroke-opacity=".16"/><circle cx="308" cy="297" r="117" fill="none" stroke="#73e8d0" stroke-opacity=".22" stroke-dasharray="5 8"/>
+  <path d="M308 150 404 187v78c0 70-43 121-96 153-53-32-96-83-96-153v-78z" fill="url(#shield)" stroke="url(#line)" stroke-width="3"/>
+  <path d="M308 177 382 205v61c0 53-32 93-74 120-42-27-74-67-74-120v-61z" fill="#10273a" stroke="#66e2cb" stroke-opacity=".44"/>
+  <path d="m273 270 25 25 48-57" fill="none" stroke="#86f4d2" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)"/>
+  <g fill="none" stroke="#53cbbd" stroke-opacity=".72" stroke-width="2"><path d="M190 250H115v-52H67"/><path d="M205 356h-80v65H74"/><path d="M410 240h73v-61h57"/><path d="M412 363h81v59h45"/></g>
+  <g fill="#83f0d1"><circle cx="67" cy="198" r="5"/><circle cx="74" cy="421" r="5"/><circle cx="540" cy="179" r="5"/><circle cx="539" cy="422" r="5"/></g>
+  <g font-family="Arial,sans-serif" fill="#a9c2d2"><text x="63" y="174" font-size="12" letter-spacing="2">EDGE NODE 04</text><text x="63" y="453" font-size="12" letter-spacing="2">TRAFFIC MONITOR</text><text x="531" y="155" font-size="12" letter-spacing="2">THREAT SIGNAL</text><text x="531" y="454" font-size="12" letter-spacing="2">MODEL STATUS</text></g>
+  <rect x="613" y="114" width="273" height="370" rx="12" fill="#0b1928" stroke="#365167"/>
+  <text x="642" y="153" fill="#a8c2d1" font-family="Arial,sans-serif" font-size="12" letter-spacing="2">SECURITY TELEMETRY</text>
+  <text x="642" y="204" fill="#f0f7fa" font-family="Arial,sans-serif" font-size="34" font-weight="700">Signal review</text>
+  <text x="642" y="232" fill="#819cab" font-family="Arial,sans-serif" font-size="14">Behavioral anomaly stream</text>
+  <path d="M642 338h34l17-42 20 65 22-35 20 14 20-52 22 70 19-39 19 19 20-15 27 0" fill="none" stroke="url(#line)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M642 364h214" stroke="#314a5e"/><g fill="#91f2d5"><circle cx="710" cy="296" r="5"/><circle cx="775" cy="288" r="5"/><circle cx="816" cy="348" r="5"/></g>
+  <rect x="642" y="402" width="214" height="46" rx="6" fill="#112b39"/><circle cx="663" cy="425" r="5" fill="#77e5bb"/><text x="679" y="430" fill="#c7e3e5" font-family="Arial,sans-serif" font-size="13">Monitoring active</text>
+  <text x="74" y="548" fill="#63859b" font-family="Arial,sans-serif" font-size="11" letter-spacing="3">MACHINE LEARNING  /  SECURITY ANALYTICS</text>
+</svg>
