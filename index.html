@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Portfolio of Mybalan S, MCA graduate and Data Science intern building practical software and machine learning projects.">
+  <meta name="theme-color" content="#0b1220">
+  <title>Mybalan S — Data Science & Software</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="theme.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="wordmark" href="#home" aria-label="Portfolio home"><span class="mark" aria-hidden="true"></span><span data-profile="name">Mybalan S<span class="period">.</span></span></a>
+    <button class="menu-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Open navigation"><span></span><span></span></button>
+    <nav id="site-nav" class="site-nav" aria-label="Main navigation">
+      <a href="#about">About</a><a href="#work">Work</a><a href="#projects">Projects</a><button type="button" class="nav-edit" data-open-editor>Edit my details</button><a href="#contact" class="nav-contact">Let’s talk <span>↗</span></a>
+    </nav>
+  </header>
+  <nav class="slide-nav" aria-label="Portfolio sections">
+    <a href="#home" aria-label="Introduction" aria-current="step"></a><a href="#about" aria-label="About"></a><a href="#skills" aria-label="Skills"></a><a href="#work" aria-label="Experience"></a><a href="#projects" aria-label="Projects"></a><a href="#education" aria-label="Education"></a><a href="#contact" aria-label="Contact"></a>
+  </nav>
+
+  <main id="main">
+    <section class="hero section-wrap" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot"></span> DATA SCIENCE <span class="eyebrow-divider">/</span> MCA</p>
+        <h1>Data-informed<br><span class="accent">solutions.</span><br>Built with code.</h1>
+        <p class="hero-intro">I’m <strong data-profile="name">Mybalan S</strong>, an MCA graduate and Data Science Intern at Gradtwin. I work across Python, machine learning, and software development to turn technical ideas into practical projects.</p>
+        <div class="hero-actions"><a class="button button-primary" href="#projects">Explore my work <span>↓</span></a><a class="text-link" href="#contact">Get in touch <span>↗</span></a></div>
+        <div class="hero-meta"><span>BASED IN <b data-profile="city">Coimbatore</b></span><span>OPEN TO <b>IT &amp; Data roles</b></span></div>
+      </div>
+      <div class="hero-art" aria-label="Decorative code editor showing a simple data workflow">
+        <div class="orb orb-one"></div><div class="orb orb-two"></div>
+        <div class="orbit orbit-a"></div><div class="orbit orbit-b"></div>
+        <div class="hero-card code-card"><div class="code-title"><span class="window-lights"><i></i><i></i><i></i></span><span>analysis.py</span><span class="code-live">● LIVE</span></div><div class="code-body"><span class="line-no">01</span><code><b>import</b> pandas <b>as</b> pd</code><span class="line-no">02</span><code><b>from</b> sklearn <b>import</b> model</code><span class="line-no">03</span><code class="blank-code"> </code><span class="line-no">04</span><code>data = pd.<em>read_csv</em>(<i>"data.csv"</i>)</code><span class="line-no">05</span><code>features = data.<em>dropna</em>()</code><span class="line-no">06</span><code><b>print</b>(<i>"Ready to explore"</i>)</code></div><div class="code-footer"><span><i></i> Python · Data workflow</span><span>UTF-8</span></div></div>
+        <span class="floating-tag tag-top">$ explore(data)</span><span class="floating-tag tag-bottom">[ BUILD · LEARN · ITERATE ]</span>
+      </div>
+      <a class="scroll-cue" href="#about"><span class="scroll-line"></span> SCROLL TO EXPLORE</a>
+    </section>
+
+    <section class="section section-about" id="about">
+      <div class="section-wrap about-grid">
+        <div class="about-intro"><p class="eyebrow">01 / A LITTLE ABOUT ME</p><h2>Making sense<br>of <span class="accent">the details.</span></h2><figure class="profile-photo"><img src="assets/profile.jpg" alt="Portrait of Mybalan S wearing a dark blazer and white shirt" width="1588" height="1985"><figcaption><span class="profile-dot"></span> MCA GRADUATE <i>/</i> DATA SCIENCE</figcaption></figure></div>
+        <div class="about-copy"><p class="lead">I’m an MCA graduate and Data Science intern at <strong>Gradtwin Pvt. Ltd.</strong> (2026), building experience across data workflows and software development.</p><p>My interests include exploratory data analysis, machine learning fundamentals, and building software that solves clear problems. I value sound fundamentals, readable code, and explaining technical work in a straightforward way. I’m open to entry-level IT and data opportunities.</p><div class="about-facts"><div><span>01</span><b>Analyze the problem</b></div><div><span>02</span><b>Build and iterate</b></div><div><span>03</span><b>Share clear results</b></div></div></div>
+      </div>
+    </section>
+
+    <section class="section" id="skills"><div class="section-wrap">
+      <div class="section-heading"><div><p class="eyebrow">02 / TECHNICAL TOOLKIT</p><h2>Skills &amp; <span class="accent">technologies</span></h2></div><p class="heading-note">Tools I use and concepts I’m developing through projects and internship work.</p></div>
+      <div class="skills-grid">
+        <article class="skill-card"><span class="skill-index">A</span><h3>Programming</h3><div class="chips"><span>Python</span><span>Java</span><span>SQL</span><span>JavaScript</span></div></article>
+        <article class="skill-card"><span class="skill-index">B</span><h3>Data &amp; ML</h3><div class="chips"><span>pandas</span><span>NumPy</span><span>scikit-learn</span><span>EDA</span><span>ML basics</span></div></article>
+        <article class="skill-card"><span class="skill-index">C</span><h3>Web &amp; AI</h3><div class="chips"><span>HTML / CSS</span><span>GenAI fundamentals</span><span>LLM fundamentals</span></div></article>
+      </div>
+    </div></section>
+
+    <section class="section section-work" id="work"><div class="section-wrap">
+      <div class="section-heading"><div><p class="eyebrow">03 / EXPERIENCE</p><h2>Where I’m <span class="accent">growing</span></h2></div><span class="year-stamp">2026</span></div>
+      <article class="experience"><div class="experience-date">2026 <span>· CURRENT</span></div><div class="experience-main"><p class="eyebrow">INTERNSHIP</p><h3>Data Science Intern</h3><p class="company">Gradtwin Pvt. Ltd.</p><p>Building hands-on experience in data science workflows, from understanding data and exploring patterns to learning how machine learning can support practical problem solving.</p><div class="chips"><span>Data Science</span><span>Exploratory analysis</span><span>Machine learning</span></div></div><div class="experience-type">INDUSTRY<br>EXPERIENCE <span>↗</span></div></article>
+    </div></section>
+
+    <section class="section" id="projects"><div class="section-wrap">
+      <div class="section-heading"><div><p class="eyebrow">04 / PROJECT WORK</p><h2>Applied <span class="accent">problem-solving.</span></h2></div><p class="heading-note">Project summaries. Add implementation details, measurable results, and source links as each project is finalized.</p></div>
+      <div class="projects-grid">
+        <article class="project-card project-large"><div class="project-visual image-visual"><img class="project-art" src="assets/project-cyber-security.svg" alt="A security shield connected to machine-learning anomaly monitoring signals"></div><div class="project-info"><div class="project-top"><span class="project-type">MACHINE LEARNING · SECURITY</span><span class="project-number">01</span></div><h3>Intelligent Cyber Security Framework Using Machine Learning</h3><p class="project-description"><span>Explores machine-learning approaches to cybersecurity monitoring.</span><span>Examines patterns that may signal suspicious activity in data.</span><span>Focuses on distinguishing unusual activity from normal behavior.</span><span>Aims to support earlier, data-informed security decisions.</span></p><div class="project-bottom"><div class="chips"><span>Python</span><span>Machine learning</span><span>Security</span></div><a href="#contact" class="round-link" aria-label="Ask about this project">↗</a></div></div></article>
+        <article class="project-card"><div class="project-visual image-visual"><img class="project-art" src="assets/project-x-authenticity.svg" alt="A network analysis dashboard showing account activity and authenticity signals"></div><div class="project-info"><div class="project-top"><span class="project-type">MACHINE LEARNING · SOCIAL</span><span class="project-number">02</span></div><h3>Detection of Inauthentic Accounts on X</h3><p class="project-description"><span>Studies account signals linked to inauthentic activity on X.</span><span>Explores account data to identify useful detection signals.</span><span>Uses machine-learning classification concepts to assess profiles.</span><span>Aims to identify suspicious activity while reducing false alarms.</span></p><p class="patent-note">A patent has been published for this project. View the document below.</p><a class="project-resource" href="https://drive.google.com/file/d/1hzRtbxrbPvaHs6YLnWrThawVCwo9QS5S/view?usp=sharing" target="_blank" rel="noreferrer">View published patent <span>↗</span></a><div class="project-bottom"><div class="chips"><span>Python</span><span>EDA</span><span>Classification</span></div><a href="#contact" class="round-link" aria-label="Ask about this project">↗</a></div></div></article>
+        <article class="project-card"><div class="project-visual image-visual"><img class="project-art" src="assets/project-voice-task-agent.svg" alt="A voice assistant translating a spoken request into a task"></div><div class="project-info"><div class="project-top"><span class="project-type">VOICE · AUTOMATION</span><span class="project-number">03</span></div><h3>VoiceTaskAgent</h3><p class="project-description"><span>Turns spoken requests into simple tasks through a voice interface.</span><span>Captures the requested action and relevant task details.</span><span>Automates task entry to reduce repetitive manual steps.</span><span>Makes everyday task management more hands-free.</span></p><div class="project-bottom"><div class="chips"><span>Python</span><span>Voice interface</span><span>Automation</span></div><a href="#contact" class="round-link" aria-label="Ask about this project">↗</a></div></div></article>
+      </div>
+
+    </div></section>
+
+    <section class="section section-education" id="education"><div class="section-wrap education-grid"><div><p class="eyebrow">05 / THE FOUNDATION</p><h2>Learning is<br>part of the <span class="accent">work.</span></h2></div><div class="education-list"><article><span class="education-year">MCA</span><div><h3>Master of Computer Applications</h3><p><span data-profile="college">Nandha Engineering College</span> · <span data-profile="graduationYear">2026</span></p><small class="education-subheading">Specialization &amp; leadership</small><ul class="leadership-list"><li><strong>Association Secretary (MCA):</strong> Organized technical events and workshops for students.</li><li><strong>Student President (BCA):</strong> Led a team and organized college events.</li></ul></div><span class="edu-arrow">↗</span></article><article><span class="education-year">PRO</span><div><h3>Professional experience &amp; learning</h3><ul class="credential-list" data-profile="certificates"><li><span class="credential-main"><strong>Data Science Intern</strong><small>Gradtwin Pvt. Ltd.</small></span><time>2026</time></li><li><span class="credential-main"><strong>AI Tools &amp; Claude Workshop</strong><small>Be10x</small></span><time>2026</time></li><li><span class="credential-main"><strong>Database Management System</strong><small>Great Learning</small></span><time>2025</time></li></ul></div><span class="edu-arrow">↗</span></article></div></div></section>
+
+    <section class="contact-section" id="contact"><div class="section-wrap contact-inner"><div><p class="eyebrow">06 / YOUR NEXT STEP</p><h2>Let’s make<br>something <span class="accent">useful.</span></h2><p class="contact-copy">Open to entry-level opportunities in IT and data. Have a role, project, or idea in mind? I’d love to hear from you.</p><a class="button button-light" data-profile-link="email" href="mailto:s.mybalansadhasivam@gmail.com">Say hello <span>↗</span></a></div><div class="contact-links"><span class="eyebrow">FIND ME ONLINE</span><a data-profile-link="linkedin" href="https://www.linkedin.com/in/mybalan-sadhasivam-7591ba293" target="_blank" rel="noreferrer">LinkedIn <span>↗</span></a><a data-profile-link="github" href="https://github.com/mybala12" target="_blank" rel="noreferrer">GitHub <span>↗</span></a><a class="resume-download" id="resume-download" href="#" download="resume.pdf" hidden>Resume PDF <span>↓</span></a><span class="resume-pending" id="resume-pending" aria-disabled="true">Resume</span><a data-profile-link="email" href="mailto:s.mybalansadhasivam@gmail.com">Email <span>↗</span></a></div></div></section>
+  </main>
+  <dialog class="profile-dialog" aria-labelledby="editor-title"><form id="profile-form"><div class="dialog-heading"><div><p class="eyebrow">QUICK EDIT</p><h2 id="editor-title">Your details</h2></div><button type="button" class="dialog-close" data-close-editor aria-label="Close">×</button></div><p class="dialog-help">Fill in what you know. Leave anything blank to keep the current sample text.</p><div class="editor-fields"><label>Full name<input name="name" autocomplete="name" placeholder="Your name"></label><label>City / location<input name="city" placeholder="City, Country"></label><label>Email<input name="email" type="email" autocomplete="email" placeholder="you@example.com"></label><label>LinkedIn profile link<input name="linkedin" type="text" inputmode="url" placeholder="linkedin.com/in/your-name"></label><label>GitHub profile link<input name="github" type="text" inputmode="url" placeholder="github.com/your-name"></label><label>College / university<input name="college" placeholder="College or university"></label><label>Graduation year<input name="graduationYear" placeholder="2026"></label><label class="field-wide">Professional experience &amp; learning — one per line<textarea name="certificates" rows="4" placeholder="Data Science Intern | Gradtwin Pvt. Ltd. | 2026&#10;AI Tools &amp; Claude Workshop | Be10x | 2026&#10;Database Management System | Great Learning | 2025"></textarea></label><label class="field-wide resume-upload-label">Upload resume PDF<input name="resumeFile" type="file" accept="application/pdf,.pdf"><small id="resume-file-name">No PDF selected. Maximum file size: 15 MB.</small></label></div><div class="dialog-actions"><span class="save-note" role="status"></span><button type="button" class="cancel-button" data-close-editor>Cancel</button><button class="save-button" type="submit">Save details</button></div><p class="local-note">Details and PDF are saved in this browser on this device. To show your PDF to visitors, add it to the published site files too.</p></form></dialog>
+  <footer class="site-footer"><a class="wordmark" href="#home"><span class="mark" aria-hidden="true"></span><span data-profile="name">Mybalan S<span class="period">.</span></span></a><span>Designed &amp; built with curiosity.</span><span>© <span id="year">2026</span> <span data-profile="name">Mybalan S</span></span></footer>
+</body>
+</html>
