@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" role="img" aria-labelledby="title desc">
+  <title id="title">Inauthentic account detection on X</title>
+  <desc id="desc">A social account analytics dashboard with connected profile signals and classification insights.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#10182b"/><stop offset="1" stop-color="#1b2944"/></linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#83b7ff"/><stop offset="1" stop-color="#7ce4d1"/></linearGradient>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M36 0H0V36" fill="none" stroke="#9eafd4" stroke-opacity=".07"/></pattern>
+    <filter id="shadow"><feDropShadow dx="0" dy="14" stdDeviation="15" flood-color="#000" flood-opacity=".28"/></filter>
+  </defs>
+  <rect width="960" height="600" fill="url(#bg)"/><rect width="960" height="600" fill="url(#grid)"/>
+  <text x="55" y="65" fill="#a9bad0" font-family="Arial,sans-serif" font-size="12" letter-spacing="2">ACCOUNT AUTHENTICITY  /  SIGNAL ANALYSIS</text>
+  <rect x="56" y="94" width="848" height="448" rx="14" fill="#111e33" stroke="#354563" filter="url(#shadow)"/>
+  <rect x="56" y="94" width="848" height="58" rx="14" fill="#192842"/><path d="M56 138v14h848v-14" fill="#192842"/>
+  <circle cx="82" cy="123" r="5" fill="#f18c82"/><circle cx="101" cy="123" r="5" fill="#e6c273"/><circle cx="120" cy="123" r="5" fill="#70d9ae"/>
+  <text x="153" y="128" fill="#c4d1e1" font-family="Arial,sans-serif" font-size="13">Profile signal explorer</text>
+  <text x="763" y="128" fill="#7ce4d1" font-family="Arial,sans-serif" font-size="11" letter-spacing="1">ANALYSIS VIEW</text>
+  <text x="89" y="199" fill="#f0f5fb" font-family="Arial,sans-serif" font-size="23" font-weight="700">Network signals</text>
+  <text x="89" y="223" fill="#8091ad" font-family="Arial,sans-serif" font-size="12">Patterns across account activity</text>
+  <g stroke="#547093" stroke-opacity=".58" stroke-width="2"><path d="M167 307 267 278 356 329 451 265 542 316 637 270 741 312"/><path d="M167 307 220 390 356 329 392 415 542 316 572 401 741 312 787 390"/><path d="M267 278 288 390 451 265 479 397 637 270 672 400"/></g>
+  <g><circle cx="167" cy="307" r="21" fill="#274b71" stroke="#89b7ff" stroke-width="2"/><circle cx="267" cy="278" r="15" fill="#264463" stroke="#71d8ce" stroke-width="2"/><circle cx="356" cy="329" r="23" fill="#273d5b" stroke="#8ab7ff" stroke-width="2"/><circle cx="451" cy="265" r="18" fill="#583f50" stroke="#f0a49b" stroke-width="2"/><circle cx="542" cy="316" r="15" fill="#284765" stroke="#74d9cf" stroke-width="2"/><circle cx="637" cy="270" r="22" fill="#24496c" stroke="#88b6ff" stroke-width="2"/><circle cx="741" cy="312" r="16" fill="#583f50" stroke="#f0a49b" stroke-width="2"/><circle cx="220" cy="390" r="12" fill="#29425e" stroke="#75d9cf"/><circle cx="288" cy="390" r="14" fill="#593e50" stroke="#f0a49b"/><circle cx="392" cy="415" r="12" fill="#274b71" stroke="#89b7ff"/><circle cx="479" cy="397" r="15" fill="#274764" stroke="#74d9cf"/><circle cx="572" cy="401" r="12" fill="#593e50" stroke="#f0a49b"/><circle cx="672" cy="400" r="14" fill="#24496c" stroke="#88b6ff"/><circle cx="787" cy="390" r="12" fill="#29425e" stroke="#75d9cf"/></g>
+  <rect x="710" y="183" width="163" height="50" rx="8" fill="#1b2d48" stroke="#3b506e"/><circle cx="731" cy="208" r="6" fill="#83b7ff"/><text x="747" y="205" fill="#dce7f3" font-family="Arial,sans-serif" font-size="11">Genuine-like</text><text x="747" y="220" fill="#8498b2" font-family="Arial,sans-serif" font-size="10">signal cluster</text>
+  <rect x="710" y="244" width="163" height="50" rx="8" fill="#30283b" stroke="#5d4855"/><circle cx="731" cy="269" r="6" fill="#f0a49b"/><text x="747" y="266" fill="#f0e5e4" font-family="Arial,sans-serif" font-size="11">Review needed</text><text x="747" y="281" fill="#ad969a" font-family="Arial,sans-serif" font-size="10">unusual patterns</text>
+  <rect x="89" y="464" width="783" height="47" rx="7" fill="#17263d" stroke="#314662"/><text x="111" y="493" fill="#9db1c8" font-family="Arial,sans-serif" font-size="12">FEATURES</text><text x="191" y="493" fill="#d0dceb" font-family="Arial,sans-serif" font-size="12">account activity</text><circle cx="326" cy="488" r="3" fill="#5c7899"/><text x="347" y="493" fill="#d0dceb" font-family="Arial,sans-serif" font-size="12">profile consistency</text><circle cx="499" cy="488" r="3" fill="#5c7899"/><text x="520" y="493" fill="#d0dceb" font-family="Arial,sans-serif" font-size="12">network patterns</text><rect x="750" y="476" width="101" height="23" rx="11" fill="#203a52"/><text x="768" y="492" fill="#8ce5d4" font-family="Arial,sans-serif" font-size="10">ML CLASSIFIER</text>
+</svg>
